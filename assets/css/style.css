@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #2C73D2;
     padding: 0 0.1rem;
     position: fixed;
     z-index: 99;
@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    color: #FFFFFF;
 }
 
 header a {
@@ -54,16 +55,17 @@ h1, h2, h3 {
 
 .active {
     border-bottom: 1px solid;
+    fadeInTopLeft
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #2C73D2;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #0081CF;
     display: none;
     top: 100%;
 
@@ -84,7 +86,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background: linear-gradient(#FFFFFF, #2C73D2);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 43px;
