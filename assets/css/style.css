@@ -18,6 +18,11 @@ body {
     font-family: 'Merriweather', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
 /* Header */
 header {
     background-color: #2C73D2;
@@ -35,12 +40,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
-}
-
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
 }
 
 #menu {
@@ -55,8 +54,31 @@ h1, h2, h3 {
 
 .active {
    color: #bada55;
+   border-top: 3px solid #EFEDF0;
+   border-right: 3px solid #EFEDF0;
+   padding: 3px;
 }
 
+.active2 {
+    color: #bada55;
+    border-right: 3px solid #EFEDF0;
+    border-left: 3px solid #EFEDF0;
+    padding: 3px;
+ }
+
+ .active3 {
+    color: #bada55;
+    border-right: 3px solid #EFEDF0;
+    border-left: 3px solid #EFEDF0;
+    padding: 3px;
+ }
+
+ .active4 {
+    color: #bada55;
+    border-top: 3px solid #EFEDF0;
+    border-left: 3px solid #EFEDF0;
+    padding: 2px;
+ }
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -97,6 +119,10 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/eat-3347410_1280.jpg") no-repeat center center/cover;
+}
+
+#hero-text {
+    
 }
 
 /* Footer */
