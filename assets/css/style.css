@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 10px 10px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -54,8 +54,7 @@ h1, h2, h3 {
 }
 
 .active {
-    border-bottom: 1px solid;
-    fadeInTopLeft
+   color: #bada55;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -90,6 +89,14 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 43px;
+}
+
+/* Hero section*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/eat-3347410_1280.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -158,7 +165,7 @@ footer {
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        
     }
 
 }
