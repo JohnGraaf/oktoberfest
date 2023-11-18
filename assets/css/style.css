@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: #2C73D2;
-    padding: 0 0.1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -93,7 +93,12 @@ main {
 }
 
 /* Footer */
-#social-networks {
+
+footer {
+    box-shadow: 0 -10px 10px -10px #3a3a3a;
+}
+
+#social-media {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -101,11 +106,17 @@ main {
     list-style-type: none;
 }
 
-#social-networks i {
+#social-media i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
     
+}
+
+.text-styling {
+    text-align: center;
+    color: #2C73D2;
+    text-transform: uppercase;
 }
 
 /* Media query: tablets and larger (768px and up) */
