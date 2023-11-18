@@ -165,7 +165,10 @@ footer {
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        
+        background-color: #bada55;
+        color:#0081CF;
+        border: 1px solid #023564;
+        border-radius: 4px;
     }
 
 }
