@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    color: #FFFFFF;
+    color: #EFEDF0;
 }
 
 header a {
@@ -107,7 +107,7 @@ nav {
 
 /* Main content */
 main {
-    background: linear-gradient(#FFFFFF, #2C73D2);
+    background: linear-gradient(#EFEDF0, #2C73D2);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 43px;
@@ -119,16 +119,28 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/eat-3347410_1280.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 #hero-text {
-    
+    background-color:#2C73D285;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#hero-text > h2, #hero-text > h3 {
+    color: #EFEDF0;
 }
 
 /* Footer */
 
 footer {
     box-shadow: 0 -10px 10px -10px #3a3a3a;
+    background-color: #EFEDF0;
 }
 
 #social-media {
@@ -186,6 +198,12 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 86px;
     }
+    
+    /* Hero */
+    #hero-text {
+        width: 200px;
+        right: 50px;
+    }
 }
 
 /* Media query: tablets and larger (992px and up) */
@@ -193,7 +211,7 @@ footer {
     #menu a:hover {
         background-color: #EDEEF0;
         color:#bada55;
-        border: 1px solid #023564;
+        border: 2px solid #0081CF;
         border-radius: 4px;
         padding-left: 3px;
     }
