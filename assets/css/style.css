@@ -30,7 +30,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 10px 10px #3a3a3a;
+    box-shadow: 0 10px 10px #0081CF;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -138,28 +138,42 @@ main {
 
 /* Front page text*/
 #front-page-text {
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
 }
 
 #front-page-text h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 150%;
+}
+
+#about-okt > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #0081CF;
+    margin: 5px 0;
 }
 
 /* Timeline */
 .timeline {
     width:80%;
     display:block;
-    margin-top: 100px;
-    margin-left: 100px;
-    overflow: scroll;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: auto;
   }
   
   .line {
     width: 100%;
-    background: blue;
+    background: #0081CF;
     margin: 50px 0;
     height: 5px;
   }
@@ -182,14 +196,13 @@ main {
   
   .top-element:before,
   .bottom-element:before {
-    content: "I";
     height: 20px;
     width: 20px;
     line-height: 20px;
     text-align: center;
     border-radius: 50%;
-    background: #C33900;
-    color: white;
+    background: #EFEDF0;
+    border-color: #0081CF;
     position: absolute;
     left: 0;
   }
