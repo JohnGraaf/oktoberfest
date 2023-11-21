@@ -106,9 +106,9 @@ nav {
 }
 
 /* Main content */
+/* Main index.html */
 main {
-    background: linear-gradient(#EFEDF0, #2C73D2);
-    /* Make main element take up any surplus space to push footer down */
+
     flex: 1 0 auto;
     margin-top: 43px;
 }
@@ -135,6 +135,90 @@ main {
 #hero-text > h2, #hero-text > h3 {
     color: #EFEDF0;
 }
+
+/* Front page text*/
+#front-page-text {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#front-page-text h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+/* Timeline */
+.timeline {
+    width:80%;
+    display:block;
+    margin-top: 100px;
+    margin-left: 100px;
+    overflow: scroll;
+  }
+  
+  .line {
+    width: 100%;
+    background: blue;
+    margin: 50px 0;
+    height: 5px;
+  }
+  
+  .timeline-top,
+  .timeline-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .timeline-bottom {
+    padding-left: 50px;
+  }
+  
+  .timeline-top .top-element,
+  .timeline-bottom .bottom-element {
+    padding: 0 25px;
+    position: relative;
+  }
+  
+  .top-element:before,
+  .bottom-element:before {
+    content: "I";
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #C33900;
+    color: white;
+    position: absolute;
+    left: 0;
+  }
+  
+  .top-element:before {
+    bottom: -63px;
+  }
+  
+  .bottom-element:before {
+    top: -63px;
+  }
+  
+.top-element:after, .bottom-element:after {
+    content: "";
+    height: 50px;
+    width: 2px;
+    background: #8ACCC6;
+    position: absolute;
+  }
+  
+.top-element:after {
+    left: 10px;
+    bottom: -40px;
+  }
+  
+.bottom-element:after {
+    left: 10px;
+    top: -40px;
+  }
 
 /* Footer */
 
