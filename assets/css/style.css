@@ -26,7 +26,7 @@ h1, h2, h3 {
 /* Header */
 header {
     background-color: #2C73D2;
-    padding: 0 1rem;
+    padding: 0 0.2rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -40,6 +40,7 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    font-size: 90%;
 }
 
 #menu {
@@ -232,6 +233,16 @@ hr {
     left: 10px;
     top: -40px;
   }
+
+/* Gallery page */
+#gallery-pics img {
+    width: 100%;
+    line-height: 1;
+}
+
+#pics {
+    line-height: 0;
+}
 
 /* Footer */
 
