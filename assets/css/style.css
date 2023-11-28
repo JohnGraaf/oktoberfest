@@ -87,7 +87,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #0081CF;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 
@@ -111,7 +111,7 @@ nav {
 main {
 
     flex: 1 0 auto;
-    margin-top: 43px;
+    margin-top: 39px;
 }
 
 /* Hero section*/
@@ -235,9 +235,18 @@ hr {
   }
 
 /* Gallery page */
+
+#gallery-pics {
+    background-color: #EFEDF0;
+    color: #EFEDF0;
+    text-align: center;
+   
+}
 #gallery-pics img {
-    width: 100%;
+    width: 95%;
     line-height: 1;
+    padding: 20px;
+
 }
 
 #pics {
@@ -272,6 +281,14 @@ footer {
     text-transform: uppercase;
 }
 
+/* Media query: large and/or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -304,7 +321,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 86px;
+        margin-top: 83px;
     }
     
     /* Hero */
@@ -316,6 +333,10 @@ footer {
 
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
+
+    header {
+        width: 100%;
+    }
     #menu a:hover {
         background-color: #EDEEF0;
         color:#bada55;
